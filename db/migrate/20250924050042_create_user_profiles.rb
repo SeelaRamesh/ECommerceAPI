@@ -11,10 +11,6 @@ class CreateUserProfiles < ActiveRecord::Migration[7.2]
 
 
 
-
-      add_index :user_profiles, :username  , unique:true
-      
-
     end
   end
 end
